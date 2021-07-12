@@ -9,6 +9,6 @@ Currently contains:
 
 3. sha256.c is a strict ANSI-C/C89 implementation of the popular SHA-256 hashing algorithm. Even very old C compilers should be able to compile this. Due to lack of fixed-width integer types, users will need to override the appropriate typedefs manually.  
 
-4. micro_backend.py is a Python script that calls the Spotify API regularly to save the details of the current playback and also make snapshots of playlists that refresh frequently. Saved to a database using SQLAlchemy [I recommend SQLite], needs to run constantly and app credentials will need to be manually provided.
+4. micro_backend.py is a Python script that calls the Spotify API regularly to save the details of the current playback and also make snapshots of playlists that refresh frequently. Saved to a database using SQLAlchemy [I recommend SQLite as the backing data store], needs to run constantly and app credentials will need to be manually provided. Requires spotipy and SQLAlchemy.
 
 

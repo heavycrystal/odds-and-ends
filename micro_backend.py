@@ -68,7 +68,7 @@ current_user = spotify_api_access.current_user()
 song_staging = [None, None, True]
 new_record_count = 0
 api_error_count = 0
-tracked_playlists = [ '37i9dQZEVXcMIpJaneQ6kk', '37i9dQZEVXbgyFvEGAbfFq', ]
+tracked_playlists = [ ]
 playlist_snapshot_attempt_counter = 0
 
 if __name__== '__main__':

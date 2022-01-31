@@ -11,4 +11,6 @@ Currently contains:
 
 4. micro_backend.py is a Python script that calls the Spotify API regularly to save the details of the current playback and also make snapshots of playlists that refresh frequently. Saved to a database using SQLAlchemy [I recommend SQLite as the backing data store], needs to run constantly and app credentials will need to be manually provided. Requires spotipy and SQLAlchemy.
 
+5. gen_utf8.rs generates all possible Unicode codepoints and saves it to a file. It does not generate Unicode surrogates [which cannot be used in isolation].
+
 

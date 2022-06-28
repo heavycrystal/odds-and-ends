@@ -13,4 +13,5 @@ Currently contains:
 
 5. gen_utf8.rs generates all possible Unicode codepoints and saves it to a file. It does not generate Unicode surrogates [which cannot be used in isolation].
 
+6. memmove.cpp is a microbenchmark that generates random data in memory and copies it rapidly between two arrays. It is multithreaded and the size of the memory arrays can be configured as well.
 
